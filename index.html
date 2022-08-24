@@ -13,17 +13,32 @@
 </head>
 <body>
   <main>
-    <h1 class="title">
-      Publish your podcasts everywhere.
-    </h1>
-    <p class="description">
-      Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-      Apple Podcasts, Google Podcasts, Pocket Casts and more!
-    </p>
-    <form action="get" class="form">
-      <input type="email" name="" id="" placeholder="Email address">
-      <button type="submit">Request access</button>
-    </form>
+    <div class="wrapper">
+      <div class="block">
+        <div class="text">
+          <h1 class="title">
+            Publish your podcasts <span class="word">everywhere.</span> 
+          </h1>
+          <p class="description">
+            Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+            Apple Podcasts, Google Podcasts, Pocket Casts and more!
+          </p>
+          <form action="get" class="form" novalidate>
+            <input type="email" name="email" id="email" placeholder="Email address" class="email">
+            <button type="submit">Request access</button>
+          </form>
+          <div class="thumbs">
+            <img src="./assets/desktop/spotify.svg" alt="spotify">
+            <img src="./assets/desktop/apple-podcast.svg" alt="apple-podcast">
+            <img src="./assets/desktop/google-podcasts.svg" alt="google-podcasts">
+            <img src="./assets/desktop/pocket-casts.svg" alt="pocket-casts">
+          </div>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="./assets/desktop/image-host.jpg" alt="main_photo">
+      </div>
+    </div>
   </main>
 </body>
 </html>
