@@ -43,13 +43,57 @@ body {
     line-height: 28px;
     color: #C2CBE5;
     margin-bottom: 40px;
+    max-width: 445px;
 }
 
 .form {
     margin-bottom: 64px;
 }
 
+.field {
+    width: 427px;
+    min-height: 46px;
+    border-radius: 28px;
+    background-color: #2C344B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
 .email {
-    height: 56px;
+    height: 46px;
+    border: none;
+    outline: none;
+    width: 260px;
+    vertical-align: middle;
+    background-color: inherit;
+    border-radius: 28px;
+    padding-left: 32px;
+    color: #FFFFFF;
+    caret-color: #54E6AF;
+}
+
+.email::placeholder {
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.btn {
+    height: 46px;
+    width: 162px;
+    border-radius: 28px;
+    background-color: #54E6AF;
+    color: #121725;
+    border: none;
+}
+
+.thumbs {
+    max-width: 536px;
+    display: flex;
+    justify-content: space-between;
 }
 
