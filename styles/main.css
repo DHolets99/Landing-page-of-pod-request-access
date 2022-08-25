@@ -6,12 +6,15 @@ body {
     width: 100vw;
 }
 
+.wrapper {
+    padding-left: 165px;
+}
+
 .context {
     height: 640px;
     width: 1275px;
-    margin: calc((100vh - 640px)/2) auto;
+    margin: calc((100vh - 640px)/2);
     position: relative;
-    padding-left: 165px;
 }
 
 .logo {
@@ -90,7 +93,6 @@ body {
 .email::placeholder {
     font-size: 14px;
     line-height: 28px;
-
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.5;
@@ -103,10 +105,15 @@ body {
     background-color: #54E6AF;
     color: #121725;
     border: none;
+    font-weight: 400;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    background-color: #B3FFE2;
 }
 
 .thumbs {
-    max-width: 536px;
+    width: 536px;
     display: flex;
     justify-content: space-between;
 }
@@ -123,3 +130,8 @@ body {
     right: 0;
 }
 
+@media screen and (max-width: 1440px) {
+    .context {
+        margin: calc((100vh - 640px)/2) auto;
+    }
+}
