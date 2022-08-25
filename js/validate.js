@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.btn').on("click", validate)
+    $('.btn').on('click', validate)
 
     const validateEmail = (email) => {
         const re = /([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/;
@@ -22,8 +22,10 @@ $(document).ready(function() {
         let email = $('.email').val();
 
         if (validateEmail(email)) {
+            $('.error').fadeOut();
             sendForm();
         } else {
+            $('.error').fadeOut();
             showError();
         }
     }
