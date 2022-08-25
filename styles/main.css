@@ -3,20 +3,31 @@
 body {
     background-color: #121725;
     font-family: 'Chivo', sans-serif;
+    width: 100vw;
 }
 
-.wrapper {
-    width: 1440px;
-    margin: 0 auto;
+.context {
+    height: 640px;
+    width: 1275px;
+    margin: calc((100vh - 640px)/2) auto;
+    position: relative;
     padding-left: 165px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: -28px;
 }
 
 .block {
     max-width: 723px;
     max-height: 509px;
     background-color: #121725;
-    padding-right: 58px;
-    padding-top: 88px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .text {
@@ -24,6 +35,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    margin-top: 88px;
+    margin-right: 58px;
 }
 
 .title {
@@ -77,6 +90,7 @@ body {
 .email::placeholder {
     font-size: 14px;
     line-height: 28px;
+
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.5;
@@ -95,5 +109,17 @@ body {
     max-width: 536px;
     display: flex;
     justify-content: space-between;
+}
+
+.photo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.dots {
+    position: absolute;
+    bottom: -52px;
+    right: 0;
 }
 
