@@ -75,6 +75,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    margin-bottom: 8px;
 }
 
 .email {
@@ -108,8 +109,15 @@ body {
     font-weight: 400;
 }
 
-.btn:hover, .btn:active, .btn:focus {
+.btn:hover {
     background-color: #B3FFE2;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 32px;
 }
 
 .thumbs {

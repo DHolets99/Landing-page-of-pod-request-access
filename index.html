@@ -15,34 +15,25 @@
   <main>
     <div class="wrapper">
       <div class="context">
-
         <div class="logo">
           <img src="./assets/desktop/logo.svg" alt="logo" class="logo_thumb">
         </div>
-        
         <div class="block">
           <div class="text">
-
-
             <h1 class="title">
               Publish your podcasts <span class="word">everywhere.</span> 
             </h1>
-
-
             <p class="description">
               Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
               Apple Podcasts, Google Podcasts, Pocket Casts and more!
             </p>
-
-
-            <form action="/" class="form" novalidate>
+            <form class="form" novalidate>
               <div class="field">
                 <input type="email" name="email" id="email" placeholder="Email address" class="email">
                 <button type="submit" class="btn">Request access</button>
               </div>
+              <span class="error"></span>
             </form>
-
-
             <div class="thumbs">
               <img src="./assets/desktop/spotify.svg" alt="spotify">
               <img src="./assets/desktop/apple-podcast.svg" alt="apple-podcast">
@@ -60,5 +51,9 @@
       </div>
     </div>
   </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <script src="./js/validate.js"></script>
 </body>
 </html>
