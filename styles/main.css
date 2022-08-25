@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
 
 body {
     background-color: #121725;
@@ -43,6 +43,7 @@ body {
 }
 
 .title {
+    font-weight: 300;
     font-size: 52px;
     line-height: 62px;
     text-transform: uppercase;
@@ -55,6 +56,7 @@ body {
 }
 
 .description {
+    font-weight: 300;
     font-size: 18px;
     line-height: 28px;
     color: #C2CBE5;
