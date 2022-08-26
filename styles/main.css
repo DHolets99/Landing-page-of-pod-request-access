@@ -204,6 +204,7 @@ body {
 @media screen and (max-width: 414px) {
     .context {
         width: 100vw;
+        height: 100vh;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -212,6 +213,7 @@ body {
 
     .logo {
         position: relative;
+        display: block;
         z-index: 2;
     }
 
@@ -288,8 +290,8 @@ body {
 
     .img-mobile {
         display: block;
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 100%;
     }
 
     .dots {
