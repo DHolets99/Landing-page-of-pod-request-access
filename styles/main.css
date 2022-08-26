@@ -223,10 +223,11 @@ body {
         position: absolute;
         bottom: 0;
         left: 0;
-        z-index: 1;
         display: flex;
         align-items: center;
         justify-content: center;
+        mix-blend-mode: normal;
+        opacity: 0.9;
     }
     
     .text {
@@ -282,6 +283,10 @@ body {
     .thumbs img {
         height: 100%;
         width: auto;
+    }
+
+    .photo {
+        height: 100%;
     }
 
     .img-tablet {
