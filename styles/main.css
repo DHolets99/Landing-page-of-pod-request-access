@@ -9,8 +9,7 @@ body {
 .context {
     min-height: 640px;
     max-width: 1275px;
-    margin: calc((100vh - 640px)/2) auto; /*calc((100vw - 1275px)/2)
-    /*margin-left: calc((100vw - 1275px)/2  + 165px );*/
+    margin: calc((100vh - 640px)/2) auto;
     position: relative;
 }
 
