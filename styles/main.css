@@ -202,6 +202,10 @@ body {
 }
 
 @media screen and (max-width: 414px) {
+    body {
+        overflow-y: hidden;
+    }
+
     .context {
         width: 100vw;
         height: 100vh;
@@ -210,13 +214,13 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        overflow-y: hidden;
     }
 
     .logo {
         position: relative;
         display: block;
         z-index: 2;
+        top: 60px;
     }
 
     .block {
