@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshots](./Group 16.jpg)
+![Screenshots](./Group_1.jpg)
 
 
 
