@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-[Desctop](.//screenshot_1.jpg)
-[Tablet](.//screenshot_2.jpg)
-[Mobile](.//screenshot_3.jpg)
+[Desctop](./Screenshot_1.jpg)
+[Tablet](.//Screenshot_2.jpg)
+[Mobile](.//Screenshot_3.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Repository here](https://github.com/DHolets99/Landing-page-of-pod-request-access)
 - Live Site URL: [Live site here](https://dholets99.github.io/Landing-page-of-pod-request-access/)
 
 ## My process
