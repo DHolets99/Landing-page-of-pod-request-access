@@ -31,9 +31,11 @@ Users should be able to:
 
 ### Screenshot
 
-[Desctop](./Screenshot_1.jpg)
-[Tablet](.//Screenshot_2.jpg)
-[Mobile](.//Screenshot_3.jpg)
+![Desktop](./Screenshot_1.jpg)
+
+![Tablet](.//Screenshot_2.jpg)
+
+![Mobile](.//Screenshot_3.jpg)
 
 ### Links
 
