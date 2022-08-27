@@ -33,9 +33,9 @@ Users should be able to:
 
 ![Desktop](./Screenshot_1.jpg)
 
-![Tablet](.//Screenshot_2.jpg)
+![Tablet](.//Screenshot_2.jpg) ![Mobile](.//Screenshot_3.jpg)
 
-![Mobile](.//Screenshot_3.jpg)
+
 
 ### Links
 
