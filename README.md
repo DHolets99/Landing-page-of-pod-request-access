@@ -31,9 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./Screenshot_1.jpg)
+![](./Group 16.jpg)
 
-![Tablet](.//Screenshot_2.jpg) ![Mobile](.//Screenshot_3.jpg)
 
 
 
